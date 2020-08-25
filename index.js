@@ -77,6 +77,6 @@ function validateEmail(email) {
 }
 
 function validateName(name) {
-  const re = /^[a-zA-Z]{1,25}$/
+  const re = /^[a-zA-Z]{1,24}$/
   return re.test(String(name).toLocaleLowerCase())
 }
